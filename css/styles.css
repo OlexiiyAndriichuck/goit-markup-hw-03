@@ -1,0 +1,241 @@
+
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+/*===== HEADER SECTION ======*/
+.web-link {
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word;
+    color: #2e2f42 
+}
+
+
+.logotype {
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-transform: uppercase
+}
+.menu {
+    list-style-type: none;
+}
+span {
+    color:  #2e2f42
+}
+.menu-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;  
+}
+.menu-contacts {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+    font-style: normal;
+}
+
+.menu-contacts:hover,
+.menu-contacts:focus {
+    color: #404BBF
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF
+}
+
+.page-header-address {
+    font-style: normal;
+}
+
+/*===== / HEADER SECTION/ ======*/
+
+body {
+    font-family:'Roboto', sans-serif; 
+    background-color: #FFFFFF;
+    color: #434455;
+}
+
+section {
+    background-color: #F4F4FD
+}
+/*===== HERO SECTION======*/
+.main-title {
+    color: white;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;  
+}
+
+.order-service-btn {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    word-wrap: break-word ;
+}
+
+.hero {
+    text-align: center
+}
+button:hover,
+button:focus {
+    background-color: #404BBF
+}
+button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.hero {
+    background-color: #2E2F42;
+    }
+    
+/*===== /HERO SECTION/ ======*/
+
+
+.section-title {
+    color: #2E2F42;
+    font-size: 36px;
+     font-weight: 700;
+     text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;   
+}
+
+
+/*===== SECTION DESCRIPTION =====*/
+
+.description-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+}
+
+.description-list-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+}
+
+/*===== /SECTION DESCRIPTION/ =====*/
+
+/*===== SECTION OURTEAM =====*/
+ 
+.ourteam-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;  
+}
+
+.ourteam-list-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;   
+}
+
+
+.ourteam-list {
+    background-color: #F4F4FD
+}
+
+.ourteam-list-item {
+    background-color: #FFFFFF
+}
+/*===== /SECTION OURTEAM/=====*/
+
+
+/*===== SECTION OUR PORTFOLIO =====*/
+
+.section-title {
+    text-align: center
+}
+
+.portfolio-list-title {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;
+}
+
+.portfolio-list-text {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-wrap: break-word;  
+}
+
+.portfolio-section {
+    background-color: #F4F4FD
+}
+
+.portfolio-list {
+    background-color: #FFFFFF
+}
+/*===== /SECTION OUR PORTFOLIO/ =====*/
+
+/*===== PAGE FOOTER =====*/
+
+.page-footer {  
+    background-color: #2E2F42;
+}
+
+.studio-link {
+    color: #F4F4FD;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    word-wrap: break-word;
+    
+}
+
+.page-footer-text {
+    color: #F4F4FD;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    word-wrap: break-word   
+}
+
+.web-link-footer {
+    color: #f4f4fd ;
+}
+/*===== /PAGE FOOTER/ =====*/
