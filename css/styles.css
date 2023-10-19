@@ -1,10 +1,71 @@
 
 .list {
     list-style-type: none;
+    display: flex;
+    margin-left: 332px;
 }
 .link {
     text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+address {
+    display: flex;
+}
+
+.container-bgk {
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2E2F42;
+}
+
+.container {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+/*===== PAGE NAVIGATION ======*/
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+ 
+}
+
+.menu {
+    display: flex;
+}
+
+.list {
+    display: flex;
+}
+
+.page-header-flex {
+    justify-content: space-between;
+    display: flex;
+}
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;}
+/*===== /PAGE NAVIGATION/ ======*/
+
 /*===== HEADER SECTION ======*/
 .web-link {
     font-size: 18px;
@@ -24,7 +85,10 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    text-transform: uppercase
+    text-transform: uppercase;
+    display: flex;
+    margin-right: 76px;
+    margin-left: 156px;
 }
 .menu {
     list-style-type: none;
@@ -47,6 +111,11 @@ span {
     letter-spacing: 0.02em;
     word-wrap: break-word;
     font-style: normal;
+    margin-right: 40px;
+}
+
+.menu-item {
+    margin-right: 40px;
 }
 
 .menu-contacts:hover,
@@ -60,7 +129,10 @@ span {
 
 .page-header-address {
     font-style: normal;
+    display: flex;
 }
+
+
 
 /*===== / HEADER SECTION/ ======*/
 
@@ -71,7 +143,7 @@ body {
 }
 
 section {
-    background-color: #F4F4FD
+    
 }
 /*===== HERO SECTION======*/
 .main-title {
@@ -81,6 +153,11 @@ section {
     line-height: 1.07;
     letter-spacing: 0.02em;
     word-wrap: break-word;  
+    width: 496px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .order-service-btn {
@@ -90,11 +167,10 @@ section {
     line-height: 1.5;
     letter-spacing: 0.04em;
     word-wrap: break-word ;
+    margin: 356px 635px 188px 636px;
 }
 
-.hero {
-    text-align: center
-}
+
 button:hover,
 button:focus {
     background-color: #404BBF
@@ -106,8 +182,8 @@ button {
 
 .hero {
     background-color: #2E2F42;
-    }
-    
+}
+
 /*===== /HERO SECTION/ ======*/
 
 
@@ -145,7 +221,7 @@ button {
 /*===== /SECTION DESCRIPTION/ =====*/
 
 /*===== SECTION OURTEAM =====*/
- 
+
 .ourteam-list-title {
     color: #2E2F42;
     font-size: 20px;
@@ -165,13 +241,7 @@ button {
 }
 
 
-.ourteam-list {
-    background-color: #F4F4FD
-}
 
-.ourteam-list-item {
-    background-color: #FFFFFF
-}
 /*===== /SECTION OURTEAM/=====*/
 
 
@@ -199,20 +269,11 @@ button {
     word-wrap: break-word;  
 }
 
-.portfolio-section {
-    background-color: #F4F4FD
-}
-
-.portfolio-list {
-    background-color: #FFFFFF
-}
 /*===== /SECTION OUR PORTFOLIO/ =====*/
 
 /*===== PAGE FOOTER =====*/
 
-.page-footer {  
-    background-color: #2E2F42;
-}
+
 
 .studio-link {
     color: #F4F4FD;
@@ -237,5 +298,9 @@ button {
 
 .web-link-footer {
     color: #f4f4fd ;
+}
+
+.page-footer {
+    background-color: #2E2F42;
 }
 /*===== /PAGE FOOTER/ =====*/
