@@ -63,9 +63,13 @@ img {
 .page-navigation {
     display: flex;
     text-align: center;
+    align-items: center;
 }
 
-
+.menu-item {
+    gap: 40px
+    padding: 24px 0
+}
 
 .logotype {
     font-size: 18px;
@@ -81,7 +85,8 @@ img {
     list-style-type: none;
     display: flex;
     gap: 40px;
-    padding: 24px 0
+    padding: 24px 0;
+    
 }
 span {
     color:  #2e2f42
