@@ -87,7 +87,6 @@ img {
     display: flex;
     gap: 40px;
     padding: 24px 0;
-    
 }
 span {
     color:  #2e2f42
@@ -193,7 +192,8 @@ button {
      text-transform: capitalize;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    word-wrap: break-word;   
+    word-wrap: break-word;
+    margin-bottom: 72px;   
 }
 
 
@@ -236,6 +236,8 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     word-wrap: break-word;  
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .ourteam-list-text {
@@ -244,11 +246,23 @@ button {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    word-wrap: break-word;   
+    word-wrap: break-word;  
+    text-align: center; 
 }
 
+.our-team {
+    display: flex;
+    gap: 24px;
+}
 
+.ourteam-list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 
+.ourteam-div {
+    padding: 32px 0;
+}
 /*===== /SECTION OURTEAM/=====*/
 
 
