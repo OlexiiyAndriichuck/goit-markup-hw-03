@@ -136,11 +136,11 @@ span {
     line-height: 1.07;
     letter-spacing: 0.02em;
     word-wrap: break-word;  
-    width: 496px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 48px;
     padding-top: 180px;
+    max-width: 496px;
 }
 
 .order-service-btn {
@@ -150,8 +150,11 @@ span {
     line-height: 1.5;
     letter-spacing: 0.04em;
     word-wrap: break-word;
-    margin-left: auto;
-    margin-right: auto;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    bottom: none;
+    border-radius: 4px;
 
 }
 
@@ -160,6 +163,7 @@ span {
 .hero-div {
     background-color: #2E2F42;
     height: 600px;
+    padding: 188px 0;
 }
 
 
@@ -191,6 +195,11 @@ button {
 
 /*===== SECTION DESCRIPTION =====*/
 
+.visually-hidden {
+    visibility: hidden;
+}
+
+
 .description-list-title {
     color: #2E2F42;
     font-size: 20px;
@@ -209,6 +218,10 @@ button {
     word-wrap: break-word;
 }
 
+.description-list {
+    display: flex;
+    gap: 24px;
+}
 /*===== /SECTION DESCRIPTION/ =====*/
 
 /*===== SECTION OURTEAM =====*/
