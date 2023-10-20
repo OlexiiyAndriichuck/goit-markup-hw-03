@@ -1,10 +1,35 @@
 
 .list {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 .link {
     text-decoration: none;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
+}
+
+.container {
+    width: 1158px;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    padding: 0 15px;
+    justify-content: space-between;
+    display: flex;
+  }
 /*===== HEADER SECTION ======*/
 .web-link {
     font-size: 18px;
@@ -24,10 +49,13 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #4d5ae5;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin-right: 76px;
 }
 .menu {
     list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 span {
     color:  #2e2f42
@@ -38,7 +66,8 @@ span {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    word-wrap: break-word;  
+    word-wrap: break-word; 
+    padding: 24px 0; 
 }
 .menu-contacts {
     color: #434455;
@@ -62,6 +91,10 @@ span {
     font-style: normal;
 }
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 /*===== / HEADER SECTION/ ======*/
 
 body {
@@ -70,12 +103,10 @@ body {
     color: #434455;
 }
 
-section {
-    background-color: #F4F4FD
-}
+
 /*===== HERO SECTION======*/
 .main-title {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -92,9 +123,7 @@ section {
     word-wrap: break-word ;
 }
 
-.hero {
-    text-align: center
-}
+
 button:hover,
 button:focus {
     background-color: #404BBF
@@ -104,9 +133,11 @@ button {
     background-color: #4D5AE5;
 }
 
-.hero {
-    background-color: #2E2F42;
-    }
+.page-navigation {
+    display: flex;
+    align-items: center;
+ 
+}
     
 /*===== /HERO SECTION/ ======*/
 
@@ -165,21 +196,13 @@ button {
 }
 
 
-.ourteam-list {
-    background-color: #F4F4FD
-}
 
-.ourteam-list-item {
-    background-color: #FFFFFF
-}
 /*===== /SECTION OURTEAM/=====*/
 
 
 /*===== SECTION OUR PORTFOLIO =====*/
 
-.section-title {
-    text-align: center
-}
+
 
 .portfolio-list-title {
     color: #2E2F42;
@@ -199,13 +222,7 @@ button {
     word-wrap: break-word;  
 }
 
-.portfolio-section {
-    background-color: #F4F4FD
-}
 
-.portfolio-list {
-    background-color: #FFFFFF
-}
 /*===== /SECTION OUR PORTFOLIO/ =====*/
 
 /*===== PAGE FOOTER =====*/
