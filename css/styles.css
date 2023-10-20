@@ -22,13 +22,20 @@ img {
     display: block;
 }
 
-.container {
+.container-second {
     width: 1158px;
-    margin-left:0 auto;
-    margin-right:0 auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0 15px;
     justify-content: space-between;
     display: flex;
+  }
+
+  .container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
   }
 /*===== HEADER SECTION ======*/
 .web-link {
@@ -41,6 +48,10 @@ img {
     color: #2e2f42 
 }
 
+.hero {
+    padding-top: 288px;
+    padding-bottom: 188px;
+}
 
 .logotype {
     font-size: 18px;
@@ -93,6 +104,8 @@ span {
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 /*===== / HEADER SECTION/ ======*/
@@ -112,6 +125,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     word-wrap: break-word;  
+    width: 496px;
 }
 
 .order-service-btn {
@@ -121,6 +135,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     word-wrap: break-word ;
+    display: block;
+    min-width: 169px;height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -129,8 +149,7 @@ button:focus {
     background-color: #404BBF
 }
 button {
-    cursor: pointer;
-    background-color: #4D5AE5;
+    
 }
 
 .page-navigation {
