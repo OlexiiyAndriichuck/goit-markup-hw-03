@@ -27,8 +27,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
-    justify-content: space-between;
-    display: flex;
   }
 
   .container {
@@ -36,6 +34,8 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+    justify-content: space-between;
+    display: flex;
   }
 
   
