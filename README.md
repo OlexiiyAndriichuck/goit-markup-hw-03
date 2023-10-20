@@ -18,21 +18,22 @@
 <body>
     <!--PAGE HEADER-->
 <header class="page-header">
+    <div class="container-second">
     <nav class="page-navigation">
-        <a class="logotype link" href="./index.html"><span class="web-link">Web</span>STUDIO</a>
+        <a class="logotype link" href="./index.html">Web<span class="web-link">Studio</span></a>
         <ul class="menu">
              <li class="menu-item">
-                <a class="menu-link link" href="#studio">Studio</a>                          
+                <a class="menu-link link" href="./index.html">Studio</a>                          
             </li>
             <li class="menu-item">
-                <a class="menu-link link" href="#portfolio">Portfolio</a>
+                <a class="menu-link link" href="">Portfolio</a>
             </li>
             <li class="menu-item">
-                <a class="menu-link link" href="#contacts">Contacts</a>
+                <a class="menu-link link" href="">Contacts</a>
             </li>
         </ul>
     </nav>
-    <address>
+    <address class="page-header-address">
         <ul class="list">
             <li>
                 <a class="menu-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -42,17 +43,24 @@
             </li>
         </ul>
     </address>
+    </div>
 </header> 
 <!--PAGE MAIN-->
 <main>
         <section class="hero">
+            <div class="container">
             <h1 class="main-title">Effective Solutions<br/>
                  for Your Business</h1>
             <button class="order-service-btn" type="button">Order Service</button>
+            </div>
         </section>
+           
+        
         <!--SECTION DESCRIPTION-->
+       
         <section class="description" id="description">
-        <div class="el"><h2>Description</h2></div>
+        <div class="container">
+        <h2 visually="hidden">Description</h2>      
         <ul class="description-list list">
             <li class="description-list-item">
                 <h3 class="description-list-title">Strategy</h3>
@@ -72,51 +80,64 @@
                <p class="description-list-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving. </p>
             </li>
         </ul>
+        </div>  
         </section>
         <!--SECTION OUR TEAM-->
         <section class="our-team">
+        <div class="container">
             <h2 class="section-title">Our Team</H2>
                 <ul class="ourteam-list list">
-                    <li class="ourtqam-list-item">
+                    <li class="ourteam-list-item">
                         <img class="ourteam-list-img" src="./images/mark-guerrero.jpg" 
                         alt="mark-guerrero"
                         width="264"
                         height="260"
                         >
+                        <div class="workers">
                         <h3 class="ourteam-list-title">Mark Guerrero</h3>
                         <p class="ourteam-list-text">Product Designer</p>
+                        </div> 
                     </li>
-                    <li class="ourtqam-list-item">
+                    <li class="ourteam-list-item">
                         <img class="ourteam-list-img" src="./images/tom-ford.jpg" 
                         alt="tom-ford"
                         width="264"
                         height="260"
                         >
+                        <div class="workers">
                         <h3 class="ourteam-list-title">Tom Ford</h3>
-                        <p class="ourteam-list-text">Frontend Developer</p>
+                        <p class="ourteam-list-text">Frontend Developer</p> 
+                        </div>
                     </li>
-                    <li class="ourtqam-list-item">
+                    <li class="ourteam-list-item">
                         <img class="ourteam-list-img" src="./images/camila-garcia.jpg" 
                         alt="camila-garcia"
                         width="264"
                         height="260"
                         >
+                        <div class="workers">
                         <h3 class="ourteam-list-title">Camila Garcia</h3>
                         <p class="ourteam-list-text">Marketing</p>
+                        </div>
                     </li>
-                    <li class="ourteam-list-img ourtqam-list-item" >
-                        <img src="./images/daniel-wilson.jpg" 
+                    <li class="ourteam-list-item">
+                        <img class="ourteam-list-img" src="./images/daniel-wilson.jpg" 
                         alt="daniel-wilson"
                         width="264"
                         height="260"
                         >
+                        <div class="workers">
                         <h3 class="ourteam-list-title">Daniel Wilson</h3>
                         <p class="ourteam-list-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
+        </div>
         </section>
+        
         <!--SECTION OUR PORTFOLIO-->
-        <section>
+        <section class="portfolio-section">
+        <div class="container">
             <h2 class="section-title">Our Portfolio</h2>
             <ul class="portfolio-list list"> 
                 <li class="portfolio-list-item">
@@ -125,61 +146,77 @@
                     width="360"
                     height="300"
                     >
+                    <div class="app">
                     <h3 class="portfolio-list-title">Banking App</h3>
                     <p class="portfolio-list-text">App</p>
+                    </div>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/cashless-payment.jpg" 
+                    <img class="portfolio-list-img" src="./images/cashless-payment.jpg" 
                     alt="cashless-payment"
                     width="360"
                     height="300"
                     >
+                    <div class="app">
                     <h3 class="portfolio-list-title">Cashless Payment</h3>
                     <p class="portfolio-list-text">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/meditation-app.jpg" 
+                    <img class="portfolio-list-img" src="./images/meditation-app.jpg" 
                     alt="meditation-app"
                     width="360"
                     height="300"
                     >
+                    <div class="app">
                     <h3 class="portfolio-list-title">Meditation App</h3>
                     <p class="portfolio-list-text">App</p>
+                    </div>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/taxi-service.jpg" 
+                    <img class="portfolio-list-img" src="./images/taxi-service.jpg" 
                     alt="taxi-service"
                     width="360"
                     height="300"
                     >
+                    <div class="app">
                     <h3 class="portfolio-list-title">Taxi Service</h3>
                     <p class="portfolio-list-text">Marketing</p>
+                    </div>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/screen-illustrations.jpg" 
+                    <img class="portfolio-list-img" src="./images/screen-illustrations.jpg" 
                     alt="screen-illustrations"
                     width="360"
                     height="300"
                     >
+                    <div class="app">
                     <h3 class="portfolio-list-title">Screen Illustrations</h3>
                     <p class="portfolio-list-text">Design</p>
+                    </div>
                 </li>
                 <li class="portfolio-list-item">
-                    <img src="./images/online-courses.jpg" 
+                    <img class="portfolio-list-img" src="./images/online-courses.jpg" 
                     alt="online-courses"
                     width="360"
                     height="300"
                     >
+                    <div class="app">
                     <h3 class="portfolio-list-title">Online Courses</h3>
                     <p class="portfolio-list-text">Marketing</p>
+                    </div>
                 </li>
             </ul>
+        </div>
         </section>
+        
 </main> 
 <!--PAGE FOOTER-->
 <footer class="page-footer">
-        <a class="logotype link" href="./index.html"><span class="web-link">Web</span><span class="studio-link">STUDIO</span></a>
+    <div class="container">
+        <a class="logotype-second link" href="./index.html">Web<span class="web-link-footer">Studio</span></a>
             <p class="page-footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
 </footer>
 </body>
 </html>
