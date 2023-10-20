@@ -65,6 +65,8 @@ img {
     color: #4d5ae5;
     text-transform: uppercase;
     margin-right: 76px;
+    display: inline-block;
+    
 }
 .menu {
     list-style-type: none;
@@ -128,7 +130,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     word-wrap: break-word;  
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -217,9 +219,8 @@ button {
     width: calc((100% - 72px) / 4);
 }
 
-.visually-hidden {
-    visibility: hidden;
-}
+
+
 /*===== /SECTION DESCRIPTION/ =====*/
 
 /*===== SECTION OURTEAM =====*/
@@ -281,6 +282,7 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     word-wrap: break-word;
+    margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -292,6 +294,31 @@ button {
     word-wrap: break-word;  
 }
 
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3);
+}
+
+.app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    border-top: none;
+    background: #FFFFFF;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /*===== /SECTION OUR PORTFOLIO/ =====*/
 
@@ -299,6 +326,7 @@ button {
 
 .page-footer {  
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .studio-link {
@@ -319,10 +347,24 @@ button {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    word-wrap: break-word   
+    word-wrap: break-word;
+    max-width: 264px;
 }
 
 .web-link-footer {
     color: #f4f4fd ;
+}
+
+.logotype-second {
+    font-size: 18px;
+    font-family:'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    text-transform: uppercase;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 /*===== /PAGE FOOTER/ =====*/
